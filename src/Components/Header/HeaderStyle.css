@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #141414;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.header-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.item-container {
+    width: 10%;
+    height: 100%;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.item-container:hover {
+    background-color: #383838;
+    transition: ease-in-out 0.2s;
+}
+
+.item-name {
+    text-align: center;
+    height: 100%;
+    margin-top: 9%;
+}
