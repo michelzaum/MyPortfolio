@@ -1,0 +1,79 @@
+.approach-container {
+  margin: 5%;
+  animation: fade;
+  animation-duration: 0.7s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.approach {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 45px;
+}
+.short-apresentation-container {
+  position: relative;
+}
+
+.short-apresentation-container:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.short-apresentation-container:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.short-apresentation-container {
+  width: 40%;
+  margin: 5%;
+  padding: 5px;
+  animation: fade;
+  animation-duration: 1.5s;
+}
+
+.short-apresentation {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.short-apresentation:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.short-apresentation:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
