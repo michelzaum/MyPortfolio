@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 import './Home.css';
-
 
 function Home() {
   return (
-    <div className="App">
+    <>
       <Header />
       <div className="approach-container">
         <h1 className="approach">Hi! I'm Michel de Oliveira.<br />
@@ -19,7 +19,8 @@ function Home() {
           Acredito que o trabalho em equipe e o ato de ajudar o próximo nos faz caminhar juntos no melhor caminho."
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }
 
