@@ -11,7 +11,7 @@ function Home() {
         </h1>
         <div className="short-apresentation-container">
           <div className="short-apresentation">
-            " - Acredito que o trabalho em equipe e o ato de ajudar o próximo nos faz caminhar juntos no melhor caminho."
+            " - Acredito que o trabalho em equipe e o ato de ajudar o próximo nos faz trilhar juntos no melhor caminho."
         </div>
         </div>
         <div className="btn-moreAboutMe-container">
