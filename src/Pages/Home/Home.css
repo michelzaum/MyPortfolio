@@ -1,3 +1,10 @@
+body {
+  color: black;
+  margin: 0;
+  /* background: url('../../Images/code-coder-coding-computer-270404.jpg');
+  background-size: cover; */
+}
+
 .approach-container {
   margin: 5%;
   animation: fade;
@@ -25,27 +32,6 @@
   padding: 5px;
   animation: fade;
   animation-duration: 1.5s;
-}
-
-.short-apresentation-container:before {
-  content: "";
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  border-top: 2px solid #000;
-  border-left: 2px solid #000;
-}
-.short-apresentation-container:after {
-  content: "";
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
 }
 
 .short-apresentation {

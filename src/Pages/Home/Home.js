@@ -1,15 +1,13 @@
 import React from 'react';
-import Header from '../../Components/Header/Header';
-import Footer from '../../Components/Footer/Footer';
+import NavBar from '../../Components/NavBar/NavBar';
 import './Home.css';
 
 function Home() {
   return (
     <>
-      <Header />
       <div className="approach-container">
-        <h1 className="approach">Hi! I'm Michel de Oliveira.<br />
-          I'm Front end Developer.
+        <h1 className="approach">Olá! eu sou Michel de Oliveira.<br />
+          Sou desenvolvedor Front end.
         </h1>
       </div>
       <div className="short-apresentation-container">
@@ -19,7 +17,7 @@ function Home() {
           Acredito que o trabalho em equipe e o ato de ajudar o próximo nos faz caminhar juntos no melhor caminho."
         </div>
       </div>
-      <Footer />
+      <NavBar />
     </>
   );
 }

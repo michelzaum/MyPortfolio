@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './HeaderStyle.css';
-import LightOn from '../../Images/lightbulb.png';
-import LightOff from '../../Images/idea.png'
+import './NavBar.css';
 
 class Header extends React.Component {
     render() {
         return (
             <>
                 <header>
-                    <div className="Lights">
+                    {/* <div className="Lights">
                         <img src={LightOn} alt="light" width="40px" />
-                    </div>
+                    </div> */}
                     <Link to="/" className="item-container home">
                         <div className="header-item">
                             <span className="item-name">Home</span>
