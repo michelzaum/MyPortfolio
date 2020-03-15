@@ -10,7 +10,7 @@ class Header extends React.Component {
                     {/* <div className="Lights">
                         <img src={LightOn} alt="light" width="40px" />
                     </div> */}
-                    <Link to="/" className="item-container home">
+                    <Link to="/" className="item-container">
                         <div className="header-item">
                             <span className="item-name">Home</span>
                         </div>

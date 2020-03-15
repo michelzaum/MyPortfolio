@@ -2,7 +2,7 @@ header{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 55px;
     background-color: #141414;
     align-items: center;
     justify-content: space-evenly;
@@ -16,6 +16,12 @@ header{
     justify-content: center;
 }
 
+.header-item:hover {
+    color: #f10081;
+    transition: ease-in-out 0.2s;
+
+}
+
 .item-container {
     width: 10%;
     height: 100%;
@@ -23,19 +29,10 @@ header{
     text-decoration: none;
 }
 
-.item-container:hover {
-    background-color: #383838;
-    transition: ease-in-out 0.2s;
-}
-
 .item-name {
     text-align: center;
     height: 100%;
     margin-top: 9%;
-}
-
-.home {
-    justify-content: flex-start;
 }
 
 @keyframes vibration {
