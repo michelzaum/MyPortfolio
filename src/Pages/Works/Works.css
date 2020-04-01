@@ -1,28 +1,32 @@
 .title-works-container {
-    width: 40%;
-    padding: 3%;
-    justify-content: center;
-    display: flex;
-    animation: fade;
-    animation-duration: 0.7s;
+  width: 40%;
+  padding: 3%;
+  justify-content: center;
+  display: flex;
+  animation: fade;
+  animation-duration: 0.7s;
 }
 
 .title-works {
-    color: #F10081;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30pt;
-    font-weight: 400;
+  color: #F10081;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35pt;
+  font-weight: 400;
 }
 
 .works-container {
-    width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 90%;
 }
 
 @keyframes fade {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+  from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+}
