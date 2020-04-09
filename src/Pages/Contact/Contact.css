@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+}
+
+.phrase-container {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.phrase {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
