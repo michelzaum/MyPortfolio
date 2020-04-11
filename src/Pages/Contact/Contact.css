@@ -4,11 +4,11 @@
     grid-template-rows: 4;
 }
 
-.phrase-container {
+.container div {
     grid-column-start: 2;
     grid-row-start: 3;
 }
 
-.phrase {
+.container div h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -6,31 +6,28 @@ class Header extends React.Component {
     render() {
         return (
             <>
-                <header>
-                    {/* <div className="Lights">
-                        <img src={LightOn} alt="light" width="40px" />
-                    </div> */}
+                <nav>
                     <Link to="/" className="item-container">
-                        <div className="header-item">
-                            <span className="item-name">Home</span>
+                        <div>
+                            <span>Home</span>
                         </div>
                     </Link>
                     <Link to="/About" className="item-container">
-                        <div className="header-item">
-                            <span className="item-name">About</span>
+                        <div>
+                            <span>About</span>
                         </div>
                     </Link>
                     <Link to="/Works" className="item-container">
-                        <div className="header-item">
-                            <span className="item-name">Works</span>
+                        <div>
+                            <span>Works</span>
                         </div>
                     </Link>
                     <Link to="/Contact" className="item-container">
-                        <div className="header-item">
-                            <span className="item-name">Contact</span>
+                        <div>
+                            <span>Contact</span>
                         </div>
                     </Link>
-                </header>
+                </nav>
             </>
         )
     }

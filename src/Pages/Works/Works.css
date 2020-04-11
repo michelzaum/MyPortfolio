@@ -7,7 +7,7 @@
   animation-duration: 0.7s;
 }
 
-.title-works {
+.title-works-container h1 {
   color: #F10081;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 35pt;

@@ -9,7 +9,7 @@ class Work extends React.Component {
             <>
                 <Link to="" className="work-item">
                     <div className="work-title-container">
-                        <h1 className="work-title">Titulo Work</h1>
+                        <h1>Titulo Work</h1>
                     </div>
                     <div className="work-description-container">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, iusto <br />
@@ -17,7 +17,7 @@ class Work extends React.Component {
                          quas? Et ipsam earum omnis dicta consequuntur?</p>
                     </div>
                     <div className="work-techs-container">
-                        <span className="work-techs">ReactJS, React Native, NodeJS</span>
+                        <span>ReactJS, React Native, NodeJS</span>
                     </div>
                 </Link>
             </>

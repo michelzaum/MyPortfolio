@@ -9,8 +9,8 @@ class Contact extends React.Component {
         return (
             <>
                 <div className="container">
-                    <div className="phrase-container">
-                        <h1 className="phrase">Obrigado pela visita! Nos vemos por aí! :D</h1>
+                    <div>
+                        <h1>Obrigado pela visita! Nos vemos por aí! :D</h1>
                     </div>
                 </div>
                 <NavBar />

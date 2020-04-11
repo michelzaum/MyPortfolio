@@ -2,7 +2,6 @@ import React from 'react';
 import './About.css';
 import Navbar from '../../Components/NavBar/NavBar';
 
-
 class About extends React.Component {
     render() {
         return (
@@ -10,7 +9,7 @@ class About extends React.Component {
                 <div className="content">
                     <div className="aboutMe-container">
                         <div className="title-container">
-                            <h1 className="title">Sobre mim...</h1>
+                            <h1>Sobre mim...</h1>
                         </div>
                         <div className="text-container">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magni, in vero quasi aliquid quibusdam ullam dignissimos eveniet ratione laboriosam, repudiandae architecto maiores recusandae, quam quidem consectetur veniam officiis dolor?<br /><br />
@@ -18,10 +17,10 @@ class About extends React.Component {
                             </p>
                         </div>
                         <div className="navigation-container">
-                            <button id="btn-me" className="btn-me" />
+                            <button id="btn-me" />
                             <label>Me!</label>
 
-                            <button id="btn-skills" className="btn-skills" />
+                            <button id="btn-skills" />
                             <label>Skills</label>
                         </div>
                     </div>

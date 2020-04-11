@@ -4,28 +4,19 @@ body {
   margin: 0;
 }
 
-.effect-text{
-  color: #f10081;
-}
-
 .approach-container {
   margin: 5%;
   animation: fade;
   animation-duration: 0.7s;
 }
 
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.approach {
+.approach-container h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 45px;
+}
+
+.approach-container h1 span {
+  color: #f10081;
 }
 
 .short-apresentation-container {
@@ -37,13 +28,13 @@ body {
   animation-duration: 1.5s;
 }
 
-.short-apresentation {
+.short-apresentation-container div {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-style: italic;
 }
 
-.btn-moreAboutMe-container {
+.btn-more-container {
   width: 50%;
   height: 50px;
   display: flex;
@@ -52,7 +43,7 @@ body {
   animation-duration: 1.5s;
 }
 
-.btn-moreAboutMe {
+.btn-more-container button {
   width: 60%;
   height: 100%;
   background-color: transparent;
@@ -65,8 +56,17 @@ body {
   transition: 0.2s ease-in-out;
 }
 
-.btn-moreAboutMe:hover {
+.btn-more-container button:hover {
   border: 3px solid #f10081;
   color: #f10081;
   transition: 0.2s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

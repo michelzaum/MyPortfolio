@@ -9,7 +9,7 @@ class Works extends React.Component {
         return (
             <>
                 <div className="title-works-container">
-                    <h1 className="title-works">Meus trabalhos</h1>
+                    <h1>Meus trabalhos</h1>
                 </div>
                 <div className="works-container">
                     <Work />
