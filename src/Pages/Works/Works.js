@@ -3,9 +3,7 @@ import './Works.css';
 import NavBar from '../../Components/NavBar/NavBar';
 import Work from '../../Components/Work/Work';
 
-class Works extends React.Component {
-
-    render() {
+function Works() {
         return (
             <>
                 <div className="title-works-container">
@@ -23,7 +21,6 @@ class Works extends React.Component {
                 <NavBar />
             </>
         )
-    }
 }
 
 export default Works;

@@ -9,8 +9,7 @@ import instagram from '../../Images/instagram.png';
 import linkedin from '../../Images/linkedin.png';
 import cat from '../../Images/cat.png';
 
-class Contact extends React.Component {
-    render() {
+function Contact() {
         return (
             <>
                 <div className="container">
@@ -38,7 +37,6 @@ class Contact extends React.Component {
                 <NavBar />
             </>
         )
-    }
 }
 
 export default Contact;
